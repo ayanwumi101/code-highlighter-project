@@ -65,10 +65,6 @@ const Card = () => {
                     <a href="#">Learn more</a>
                 </div>
             </div>
-            <footer>
-                SOURCE: <a href="https://uidesigndaily.com/posts/sketch-pricing-table-price-day-988">click
-                    here</a>
-            </footer>
         </div>
     )
 }
