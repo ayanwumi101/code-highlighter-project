@@ -5,6 +5,8 @@ import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { dracula, dark, kimbieDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { stackoverflowDark, anOldHope } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import Header from './Header';
+import Card from './Card';
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -68,13 +70,10 @@ const codes = `
           {codes}
         </SyntaxHighlighter>
       </div>
+
+    <Card />
     </div>
   )
 }
 
 export default App
-
-
-const counting = () => {
-
-}
